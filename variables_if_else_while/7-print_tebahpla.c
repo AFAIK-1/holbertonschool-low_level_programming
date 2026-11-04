@@ -13,7 +13,7 @@ int main(void)
 
 	cba = "abcdefghijklmnopqrstuvxyz";
 
-	for (i = 26; i >= 0; i--)
+	for (i = 25; i >= 0; i--)
 	{
 		putchar(cba[i]);
 	}
