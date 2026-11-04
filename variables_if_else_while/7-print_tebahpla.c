@@ -11,9 +11,9 @@ int main(void)
 	char *cba;
 	int i;
 
-	cba = "abcdefghijklmnopqrstuvxyz";
+	cba = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 25; i >= 0; i--)
+	for (i = 26; i >= 0; i--)
 	{
 		putchar(cba[i]);
 	}
