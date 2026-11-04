@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	char *numbz;
 	int i;
 
 	for (i = 0; i > 9; i++)
