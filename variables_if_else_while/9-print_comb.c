@@ -10,17 +10,17 @@ int main(void)
 	char *numbz;
 	int i;
 
-	numbz = "0123456789";
-	i = 0;
-
-	while (i < 9)
+	for (i = 0; i > 9; i++)
 	{
-		putchar(numbz[i]);
-		putchar(',');
-		putchar(' ');
-		i++;
+		putchar(i + '0');
+
+		if (i != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-	putchar('9');
+	putchar('\n');
 
 	return (0);
 }
