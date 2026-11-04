@@ -13,11 +13,11 @@ int main(void)
 
 	alphabet = "abcdfghijklmnoprstuvwxyz";
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 24; i++)
 	{
 		putchar(alphabet[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
