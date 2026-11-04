@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - generates random  numbers and determines if +-0
+ * main - generates random numbers and determines if +-0
  *
  * Return: Always 0 (Success)
  */
@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	x = abs(n % 10); 
+	x = n % 10;
 
 	printf("Last digit of %i is ", n);
 	if (n > 5)
@@ -29,5 +29,5 @@ int main(void)
 	{
 		printf("%d and is less than 6 and not 0\n", x);
 	}
-	return(0);
+	return (0);
 }
