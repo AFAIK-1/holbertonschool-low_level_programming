@@ -10,7 +10,7 @@ int main(void)
 	char *base16;
 	int i;
 
-	base 16 = "0123456789abcdef";
+	base16 = "0123456789abcdef";
 	i = 0;
 
 	while (i < 16)
