@@ -2,6 +2,8 @@
 
 /*
  * print_alphabet - defines char c and a loop to print it out
+ *
+ * Return: Nothing
  */
 void print_alphabet(void)
 {
