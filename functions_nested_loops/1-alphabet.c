@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * main - defines char c and a loop to print it out
+ * print_alphabet - defines char c and a loop to print it out
  */
 void print_alphabet(void)
 {
