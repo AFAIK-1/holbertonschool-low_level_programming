@@ -22,21 +22,21 @@ void times_table(void)
 			z = x * y;
 			if (z > 9)
 			{
-				putchar((z / 10) + '0');
-				putchar((z % 10) + '0');
+				_putchar((z / 10) + '0');
+				_putchar((z % 10) + '0');
 			}
 			else
 			{
-			putchar(z + '0');
+			_putchar(z + '0');
 			}
 
 		if (x != 9)
 		{
-			putchar(',');
-			putchar(' ');
+			_putchar(',');
+			_putchar(' ');
 		}
 		}
-		putchar('\n');
+		_putchar('\n');
 		y++;
 	}
 }
