@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * print_most_numbers - prints base 10 integers, except 2/4
+ *
+ * Return: Nothing
+ */
+void print_numbers(void)
+{
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		if (i != 2 || i != 4)
+			_putchar(i + '0');
+	}
+
+	_putchar('\n');
+}
