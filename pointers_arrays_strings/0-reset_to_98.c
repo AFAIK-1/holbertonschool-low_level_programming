@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - updates the value of *int to 98
+ * @n: linked int
  *
  * Return: Nothing
  */
