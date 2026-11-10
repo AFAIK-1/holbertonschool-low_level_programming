@@ -53,6 +53,13 @@ static unsigned long reduce_checksum(void)
 int main(void)
 {
 	unsigned long checksum;
+	clock_t start;
+	clock_t end;
+
+	double build_time;
+	double process_time;
+	double reduce_time;
+	double total_time;
 
 	/*Build Dataset*/
 	start = clock();
