@@ -22,9 +22,9 @@ int main(void)
 	{
 		if (n % 15 == 0)
 			printf("%s ", fb);
-		else if (n % 5 == 0)
-			printf("%s ", f);
 		else if (n % 3 == 0)
+			printf("%s ", f);
+		else if (n % 5 == 0)
 			printf("%s ", b);
 		else
 			printf("%d ", n);
