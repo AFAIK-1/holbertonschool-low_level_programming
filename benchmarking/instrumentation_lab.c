@@ -80,6 +80,8 @@ int main(void)
 	checksum = reduce_checksum();
 	end = clock();
 
+	reduce_time = (double)(end - start) / CLOCKS_PER_SEC;
+
 	total_time = build_time + process_time + reduce_time;
 
 	if (checksum == 0ul)
