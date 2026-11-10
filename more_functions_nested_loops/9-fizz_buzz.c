@@ -18,7 +18,7 @@ int main(void)
 	fb = "FizzBuzz";
 	end = 100;
 
-	for (n = 1; n < 100; n++)
+	for (n = 1; n < end; n++)
 	{
 		if (n % 15 == 0)
 			printf("%s ", fb);
