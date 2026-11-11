@@ -9,6 +9,7 @@ int main(void)
 {
 	int opt;
 	int menu;
+	int a, b, c;
 
 	menu = 1;
 
