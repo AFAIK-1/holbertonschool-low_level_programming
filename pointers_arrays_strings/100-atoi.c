@@ -30,4 +30,6 @@ int _atoi(char *s)
 		}
 	}
 	n = n * sign;
+
+	return (n);
 }
