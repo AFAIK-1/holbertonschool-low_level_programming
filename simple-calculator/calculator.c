@@ -27,7 +27,7 @@ int main(void)
 		if (opt == 0)
 		{
 			printf("Bye!\n");
-			menu == 0;
+			menu = 0;
 		}
 		else if (opt < 0 || opt > 4)
 		{
