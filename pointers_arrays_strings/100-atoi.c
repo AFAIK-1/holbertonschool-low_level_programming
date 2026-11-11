@@ -14,6 +14,10 @@ int _atoi(char *s)
 	int sign;
 	int check;
 
+	n = 0;
+	sign = 1;
+	check = 0;
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == 45 && check != 1)
