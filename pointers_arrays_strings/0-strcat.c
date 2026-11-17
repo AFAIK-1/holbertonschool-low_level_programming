@@ -2,24 +2,23 @@
 #include <stdio.h>
 
 /**
- * *_strncat - concatenates s1 & s2
+ * *_strcat - concatenates s1 & s2
  * @dest: destination of the copied string
  * @src: source of the copied string
- * @n: bytes from src
  *
- * Return: Nothing
+ * Return: dest
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int len;
-	int j;
+	int i;
 
 	for (len = 0; src[len] != '\0'; len++)
 		;
 
-	for (j = 0; j < n && j != '\0'; i++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
-		dest[len] = src[j];
+		dest[len] = src[i];
 		len++;
 	}
 	dest[len] = '\0';
