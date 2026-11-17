@@ -8,7 +8,7 @@
  *
  * Return: null if size 0, otherwise a pointer
  */
-char *create_array(char *str)
+char *_strdup(char *str)
 {
 	char *str2;
 	int len;
