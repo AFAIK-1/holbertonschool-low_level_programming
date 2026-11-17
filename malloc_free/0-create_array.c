@@ -13,6 +13,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *ar;
 	char c;
+	int n;
 	unsigned int i;
 
 	ar = malloc(size * sizeof(char));
@@ -20,8 +21,8 @@ char *create_array(unsigned int size, char c)
 
 	if (ar == NULL)
 	{
-		for (i = 0; c[i] != 0; i++)
-			_putchar(c[i]);
+		for (n = 0; c[n] != 0; n++)
+			_putchar(c[n]);
 
 		return (NULL);
 	}
