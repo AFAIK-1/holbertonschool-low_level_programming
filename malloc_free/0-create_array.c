@@ -16,10 +16,10 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 
 	ar = malloc(size * sizeof(char));
+	c = "failed to allocate memory";
 
 	if (ar == NULL)
 	{
-		ar = " 
 		return (NULL);
 	}
 
