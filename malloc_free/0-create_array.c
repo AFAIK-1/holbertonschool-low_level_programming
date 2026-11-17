@@ -12,12 +12,19 @@
 char *create_array(unsigned int size, char c)
 {
 	char *ar;
+	char c;
 	unsigned int i;
 
 	ar = malloc(size * sizeof(char));
+	c = "failed to allocate memory";
 
-	if (ar == 0)
+	if (ar == NULL)
+	{
+		for (i = 0; c[i] != 0; i++)
+			_putchar(c[i]);
+
 		return (NULL);
+	}
 
 	for (i = 0; i < size; i++)
 		ar[i] = c;
