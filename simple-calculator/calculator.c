@@ -15,7 +15,7 @@ int check_int (int *num)
     return (1);
 }
 
-int main()
+int main(void)
 {
     int opt;
     int menu;
