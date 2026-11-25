@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strchr - finds an instance of char and prints the string from that instance
+ * *_strchr - finds char and prints the string from char
  * @s: source string
  * @c: char to find
  *
@@ -15,10 +15,9 @@ char *_strchr(char *s, char c)
 	for (i = 0; s[i] != c && s[i] != '\0'; i++)
 		;
 
-	s = &s[i];
-
 	if (s[i] != c)
 		return (NULL);
-	else
-		return (s);
+
+	s = &s[i];
+	return (s);
 }
