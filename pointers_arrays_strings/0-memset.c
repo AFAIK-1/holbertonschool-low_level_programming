@@ -7,9 +7,9 @@
  * @b: updated byte
  * @n: number of bytes to replace
  *
- * Return: nothing
+ * Return: char b
  */
-void *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
