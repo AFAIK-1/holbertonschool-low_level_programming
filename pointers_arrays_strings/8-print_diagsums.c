@@ -4,7 +4,7 @@
 /**
  * print_diagsums - prints the diagonal sums of a square matrix
  * @a: source array of int
- * size: length of the side of a square matrix
+ * @size: length of the side of a square matrix
  *
  * Return: nothing
  */
