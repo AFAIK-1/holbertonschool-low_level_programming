@@ -12,7 +12,7 @@ char *_strstr(char *haystack, char *needle)
 {
 	int i, j, len;
 
-	for (len = 0; needle[len] != '\0; len++)
+	for (len = 0; needle[len] != '\0'; len++)
 		;
 
 	for (i = 0; haystack[i] != '\0'; i++)
